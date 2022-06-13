@@ -1,0 +1,88 @@
+.section_1 {
+  width: 100%;
+  height: 800px;
+  background-image: url(../../img/bg_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+}
+
+.section_1 .text_wrap {
+  margin-top: 70px;
+}
+
+.text_wrap h1 {
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 140px;
+  color: #0032a0;
+}
+
+.text_wrap h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #8397c6;
+  margin-top: 80px;
+}
+
+.section_1 .ctgr_wrap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.section_1 .inner_ctgr_wrap {
+  margin-top: 25px;
+  display: flex;
+}
+
+.inner_ctgr_wrap a {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctgr .img_wrap {
+  width: 80%;
+  transition: 0.3s;
+}
+
+.ctgr .title_wrap {
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  color: #0032a0;
+}
+
+.ctgr .arrow {
+  width: 20px;
+  margin-left: 7px;
+}
+
+.ctgr:hover .arrow {
+  animation-name: arrow_ani;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes arrow_ani {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(5px);
+  }
+}
+
+.ctgr:hover .img_wrap {
+  width: 85%;
+}

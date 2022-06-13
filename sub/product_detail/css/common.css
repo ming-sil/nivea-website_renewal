@@ -1,0 +1,12 @@
+.wrap{
+    width: 100%;
+    background-color: rgba(131, 151, 198, 0.2);
+}
+
+section{
+    margin-bottom: 250px;
+}
+
+.section_1, .section_2, .section_4{
+    padding: 0 250px;
+}

@@ -1,0 +1,45 @@
+
+.section_1{
+    width: 100%;
+}
+
+.main_banner{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(131, 151, 198, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.section_1 .logo_wrap{
+    width: 800px;
+    position: absolute;
+    top: 230px; left: 50%;
+    margin-left: -400px;
+}
+
+.section_1 .img_box{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(131, 151, 198, 0.5);
+    background-image: url(../../img/nivea_bg_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text_box_1{
+    width: 100%;
+    height: 10vh;
+    background-color: #0032A0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8397C6;
+    text-align: center;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,93 @@
+.section_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+    }
+
+.box_1{
+    width: 50%;
+}
+
+.title_btn_wrap{
+    padding-left: 100px;
+    width: 50%;
+}
+
+.title_btn_wrap h5{
+    font-size: 28px;
+    font-weight: 500;
+    color: #8397C6;
+    margin-bottom: 23px;
+}
+ 
+.title_btn_wrap h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #0032A0;
+    margin-bottom: 33px;
+}
+
+.title_btn_wrap h6{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    color: #1d1d1d;
+}
+
+.button{
+    width: 194px;
+    height: 50px;
+    border: 2px solid #0032A0;
+    background-color: #0032A0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.title_btn_wrap .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+.title_btn_wrap .arrow{
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    transition: 0.3s;
+}
+
+.button_wrap:hover .button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #0032A0;
+}
+
+.button_wrap:hover .text{
+    color: #0032A0;
+}
+.button_wrap:hover .arrow{
+    color: #0032A0;
+}
+
+.button_wrap:hover .arrow{
+    animation-name: arrow_ani;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes arrow_ani {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(5px);
+    }
+}

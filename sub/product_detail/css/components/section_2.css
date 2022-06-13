@@ -1,0 +1,42 @@
+.section_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_2 img{
+    width: 80%;
+}
+
+.blue_box{
+    width: 80%;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 15px;
+    color: white;
+    background-color: #0032A0;
+    padding: 50px;
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_box .text_wrap{
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+.blue_box .text_box{
+    width: 49%;
+    letter-spacing: 1px;
+}
+
+.blue_box span{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}

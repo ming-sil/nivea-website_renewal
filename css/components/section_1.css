@@ -1,0 +1,71 @@
+.intro_bg{
+    background-image:url(../../img/main_banner_.png);
+    width: 100%;
+    height: 860px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 250px;
+}
+ .intro_bg .banner_title{
+    width: 164px;
+    height: 50px;
+    border-radius: 45px 45px 45px 45px;
+    border: 2px solid rgba(0, 50, 160, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 507px;
+    bottom: 230px;
+    background-color: rgba(0, 50, 160, 1);
+    transition: 0.3s;
+}
+
+.intro_bg .banner_title a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_bg .banner_title h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.intro_bg .banner_title p{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 5px;
+}
+
+.banner_title:hover{
+    border: 2px solid rgba(0, 50, 160, 1);
+    background-color: rgba(0, 50, 160, 0);
+    /* color: rgba(0, 50, 160, 1); */
+}
+
+.banner_title:hover h3{
+    color: rgba(0, 50, 160, 1);
+}
+
+.banner_title:hover p{
+    color: rgba(0,50,160,1);
+    animation-name: arrow_ani;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes arrow_ani {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(5px);
+    }
+}
